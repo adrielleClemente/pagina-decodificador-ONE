@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;500;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Challenge Decodificador</title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <img class="logo" src="assets/img/logo-alura.svg" alt="Letra A da alura">
+
+        </header>
+
+        <main>
+            <section>
+                <textarea class="textarea" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+                <div class="informacao">
+                    <h6>( ͡❛ ͜ʖ ͡❛) 👉 Apenas letras minúsculas e sem acento.</h6>
+                </div>
+
+                <div class="botoes">
+                    <button class="btn-criptografar" onclick="btnCriptografar()">
+                        Criptografar
+                    </button>
+                    <button class="btn-descriptografar" onclick="btnDescriptografar()">
+                        Descriptografar
+                    </button>
+                </div>
+            </section>
+
+
+            <section class="campo-branco">
+                <textarea class="mensagem" cols="20" rows="10"></textarea>
+
+                <button class="copiar" onclick="copiar()">Copiar</button>
+
+            </section>
+        </main>
+
+
+        <footer>
+
+            <p class="copyright">
+                &copy; Desenvolvido por Adrielle Clemente
+            </p>
+
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+
+    </body>
+
+
+</html>
